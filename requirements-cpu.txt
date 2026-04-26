@@ -1,0 +1,6 @@
+# CPU-only install profile.
+# Use: pip install -r requirements-cpu.txt
+
+-r requirements.txt
+torch==2.6.0
+pytorch-lightning==2.6.1

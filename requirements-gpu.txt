@@ -1,0 +1,10 @@
+# GPU install profile (CUDA 12.4 wheels).
+# Use: pip install -r requirements-gpu.txt
+#
+# The extra index is required so pip can resolve the +cu124 PyTorch wheels.
+
+--extra-index-url https://download.pytorch.org/whl/cu124
+
+-r requirements.txt
+torch==2.6.0+cu124
+pytorch-lightning==2.6.1
